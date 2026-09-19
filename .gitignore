@@ -1,0 +1,22 @@
+# CCS generated build output
+Debug/
+Release/
+
+# Compiled files
+*.out
+*.obj
+*.o
+*.map
+*.hex
+*.bin
+
+# Dependency/build files
+*.d
+
+# Temporary files
+*.tmp
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
