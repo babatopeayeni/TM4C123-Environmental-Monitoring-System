@@ -7,6 +7,11 @@ The system interfaces with an **AHT20 temperature and humidity sensor over I²C*
 Rather than relying on high-level peripheral libraries, the core peripheral drivers were implemented using **direct register-level Embedded C**, providing hands-on experience with ARM Cortex-M4 peripherals, memory-mapped I/O, communication protocols, hardware timing, and embedded debugging.
 
 ---
+## Working Prototype
+
+![TM4C123 AHT20 Environmental Monitoring System](images/tm4c123-aht20-hardware-setup.jpg)
+
+**Working hardware prototype:** TM4C123GXL LaunchPad interfaced with an AHT20 temperature and humidity sensor over I²C.
 
 ## Project Highlights
 
@@ -133,6 +138,11 @@ Temperature: 26.29 C
 Humidity: 51.20 %
 ```
 
+### Live Sensor Output
+
+![Real-Time Temperature and Humidity UART Output](images/uart-temperature-humidity-output.png)
+
+**Real-time UART telemetry:** Temperature and relative humidity measurements acquired from the AHT20 and transmitted by the TM4C123 to a PC at 115200 baud.
 ---
 
 ## Timer0A
@@ -309,6 +319,11 @@ This project demonstrates practical experience with:
 - **Version Control:** Git / GitHub
 
 ---
+### Development and Hardware Debugging
+
+![Code Composer Studio and UART Monitoring](images/ccs-uart-live-monitoring.png)
+
+**Firmware development and testing:** Code Composer Studio running the TM4C123 firmware while live sensor measurements are monitored through the UART serial interface.
 
 ## Engineering Challenges Addressed
 
